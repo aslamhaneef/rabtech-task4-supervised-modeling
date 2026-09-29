@@ -1,0 +1,10 @@
+{
+  "champion_model": "LightGBM",
+  "selection_metric": "mean 5-fold stratified CV F1-score",
+  "random_state": 42,
+  "train_rows": 39073,
+  "test_rows": 9769,
+  "target": "income",
+  "dataset": "UCI Adult / Census Income",
+  "model_path": "artifacts\\champion_model.joblib"
+}

@@ -1,0 +1,5 @@
+model,cv_f1_mean,best_params
+LightGBM,0.7119497013543252,"{""model__learning_rate"": 0.05, ""model__n_estimators"": 200, ""model__num_leaves"": 31}"
+Random Forest,0.7061773527867021,"{""model__max_depth"": 20, ""model__n_estimators"": 100}"
+XGBoost,0.701680584751586,"{""model__learning_rate"": 0.05, ""model__max_depth"": 5, ""model__n_estimators"": 200}"
+Logistic Regression,0.6877114806243837,"{""model__C"": 0.1, ""model__solver"": ""liblinear""}"
